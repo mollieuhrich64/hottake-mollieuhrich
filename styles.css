@@ -5,7 +5,7 @@
  * class already does it — that is what Unit 2 was for.
  */
 
-/* PALETTE — "…"
+/* PALETTE — ""
  *
  * Name the mood in a sentence that describes a place or a moment, then list
  * your colours and what job each one does. This block is what you check new
@@ -19,13 +19,15 @@
 
 /* Redeclare the theme's slots to make them yours. Everything that asked for
  * `primary` follows — you do not have to touch the markup.
- *
+ * https://coolors.co/palette/d4e09b-f6f4d2-cbdfbd-f19c79-a44a3f
  * Change "nord" to whatever theme you set on <html>.
  */
 [data-theme='nord'] {
-  /* --color-primary: #______; */
-  /* --color-primary-content: #______; */
-  /* --color-accent: #______; */
+  --color-primary: #f6f4d2;
+  --color-accent: #CBDFBD;
+  --color-pink: #F19C79; 
+  --color-maroon: #A44A3F; 
+  --color-green: #d4e09b; 
 }
 
 /* TYPE
