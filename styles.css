@@ -19,17 +19,27 @@
 
 /* Redeclare the theme's slots to make them yours. Everything that asked for
  * `primary` follows — you do not have to touch the markup.
- * https://coolors.co/palette/d4e09b-f6f4d2-cbdfbd-f19c79-a44a3f
+ * https://coolors.co/palette/d4e09b-f6f4d2--cbdfbdf19c79-a44a3f
  * Change "nord" to whatever theme you set on <html>.
  */
 [data-theme='nord'] {
-  --color-primary: #f6f4d2;
-  --color-accent: #CBDFBD;
-  --color-pink: #F19C79; 
+  --color-primary: #F19C79;
+  --color-accent: #f6f4d2;
+  --color-teal: #CBDFBD; 
   --color-maroon: #A44A3F; 
   --color-green: #d4e09b; 
+  --color-yellow: #FEF1AE; 
 }
 
+.hero{
+  background-image: url("https://assets1.cbsnewsstatic.com/hub/i/r/2025/03/19/68f4d762-3d69-4ab0-83c7-4910241b5378/thumbnail/1200x630/5f2e75d59de54eee2735d1d4beadb54c/gettyimages-121565751.jpg");
+}
+.hero h1{
+
+  text-shadow: 2px 2px 5px #A44A3F; 
+  color: var(--color-yellow);
+
+}
 /* TYPE
  *
  * Two faces: one for headings, chosen for tone; one for body, chosen for
