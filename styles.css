@@ -28,9 +28,17 @@
   --color-teal: #CBDFBD; 
   --color-maroon: #A44A3F; 
   --color-green: #d4e09b; 
-  --color-yellow: #FEF1AE; 
+  --color-yellow: #FEF1AE;
+  --color-lightpink: #FFB5C0; 
 }
 
+body{ 
+  background-color: var(--color-yellow)
+}
+
+footer { 
+  background-color: var(--color-lightpink)
+}
 .hero{
   background-image: url("https://assets1.cbsnewsstatic.com/hub/i/r/2025/03/19/68f4d762-3d69-4ab0-83c7-4910241b5378/thumbnail/1200x630/5f2e75d59de54eee2735d1d4beadb54c/gettyimages-121565751.jpg");
 }
