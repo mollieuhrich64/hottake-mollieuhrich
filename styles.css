@@ -48,6 +48,14 @@ footer {
   color: var(--color-yellow);
 
 }
+
+.hero p{ 
+  color: var(--color-yellow)
+}
+
+html {
+  scroll-behavior: smooth;
+}
 /* TYPE
  *
  * Two faces: one for headings, chosen for tone; one for body, chosen for
